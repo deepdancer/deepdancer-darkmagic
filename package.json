@@ -1,0 +1,45 @@
+{
+  "name": "deepdancer-darkmagic",
+  "version": "1.0.0",
+  "description": "Extension of the dependency injection manager deepdancer to reduce the amount of configuration needed",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt mochaTest && grunt coffeelint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/deepdancer/deepdancer-darkmagic.git"
+  },
+  "keywords": [
+    "dependency",
+    "injection",
+    "manager",
+    "module",
+    "load"
+  ],
+  "author": "Fräntz Miccoli <frantz.miccoli+npm@gmail.com> (http://thedarkside.frantzmiccoli.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deepdancer/deepdancer-darkmagic/issues"
+  },
+  "homepage": "https://github.com/deepdancer/deepdancer-darkmagic#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coffee-script": "^1.11.1",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-coffeelint": "0.0.16",
+    "grunt-contrib-coffee": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-mocha-test": "^0.13.2",
+    "grunt-shell": "^2.1.0",
+    "mocha": "^3.1.2"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "deepdancer": "^1.0.0",
+    "readdir-recursive": "0.0.4"
+  }
+}
